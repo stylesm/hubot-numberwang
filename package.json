@@ -1,0 +1,24 @@
+{
+  "name": "hubot-numberwang",
+  "version": "0.1.0",
+  "description": "Hubot script to help with the identification of numberwang.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo lulz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meatballhat/hubot-numberwang.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "numberwang"
+  ],
+  "author": "Dan Buch <daniel.buch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meatballhat/hubot-numberwang/issues"
+  },
+  "homepage": "https://github.com/meatballhat/hubot-numberwang"
+}
