@@ -5,7 +5,9 @@
 //   HUBOT_NUMBERWANG_MODULO - a number, default 7
 //
 // Commands:
-//   I'm saying something with a number like 22 or 14,000.2
+//   I was once 22 - is that numberwang?
+//   14.2 - maybe this is numberwang?
+//   5 minutes is 300 seconds - that's numberwang!
 //
 // Author:
 //   meatballhat

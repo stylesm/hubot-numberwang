@@ -1,6 +1,6 @@
 {
   "name": "hubot-numberwang",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hubot script to help with the identification of numberwang.",
   "main": "index.js",
   "scripts": {
