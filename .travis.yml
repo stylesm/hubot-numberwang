@@ -1,2 +1,10 @@
 language: node_js
 sudo: false
+deploy:
+  provider: npm
+  email: dan@meatballhat.com
+  api_key:
+    secure: IrcOW1O1WDZSA/Tey/TAQs5NIgyROFzsJoFkPzZdQLzNl8+Tvnhy6oCivT+8IpRcLBZX+vqndAU3Rqg92U+GjQVtesmLUrbLkR+wZ2LxF84GrGYeZkyvBTIuR+YiNNl93kwNaoj0jX+R23cZgZHJCbNpl9o4CBxKrou6TSXkxOE=
+  on:
+    tags: true
+    repo: meatballhat/hubot-numberwang
