@@ -19,8 +19,11 @@ successMessages = [
     'that is numberwang'
 ]
 numberwangModulo = +(process.env.HUBOT_NUMBERWANG_MODULO || '7')
+wangernumbModulo = +(process.env.HUBOT_WANGERNUMB_MODULO || '13')
 
 module.exports = (robot) ->
   robot.hear /[\b[0-9]+[0-9,.]?[0-9]*\b/, (msg) ->
-    if Date.now() % numberwangModulo == 0
+    if Date.now() % wangernumbModulo == 0
+      msg.send "THAT'S WANGERNUMB!"
+    else if Date.now() % numberwangModulo == 0
       msg.send msg.random(successMessages)
