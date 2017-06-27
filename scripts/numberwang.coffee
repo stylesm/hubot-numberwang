@@ -15,7 +15,7 @@
 successMessages = [
     'That\'s NumberWang!',
     'that\'s numberwang!!!',
-    'THATS NUMBERWANG',
+    'THAT\'S NUMBERWANG',
     'that is numberwang'
 ]
 numberwangModulo = +(process.env.HUBOT_NUMBERWANG_MODULO || '7')
